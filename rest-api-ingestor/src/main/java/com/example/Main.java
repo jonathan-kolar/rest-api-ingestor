@@ -20,6 +20,7 @@ public class Main {
 
         ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
         executor.scheduleAtFixedRate(() -> {
+            logger.info("Scheduled task started");
             try {
                 APODResponse apod = client.fetchToday();
                 db.save(apod);

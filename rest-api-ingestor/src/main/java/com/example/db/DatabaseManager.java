@@ -4,7 +4,7 @@ import com.example.model.APODResponse;
 import java.sql.*;
 
 public class DatabaseManager {
-    private static final String DB_URL = "jdbc:h2:./NasaAPOD";
+    private static final String DB_URL = "jdbc:sqlite:NasaAPOD.db";
 
     public DatabaseManager() {
         try (Connection conn = DriverManager.getConnection(DB_URL);
@@ -12,15 +12,15 @@ public class DatabaseManager {
             stmt.executeUpdate(
                 """
                         CREATE TABLE IF NOT EXISTS APODHistory (
-                            id IDENTITY PRIMARY KEY,
-                            copyright VARCHAR(255), 
-                            date VARCHAR(12),
-                            explanation CLOB,
-                            hdurl VARCHAR(512),
-                            media_type VARCHAR(255),
-                            service_version VARCHAR(512),
-                            title VARCHAR(255),
-                            url VARCHAR(512)
+                            id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            copyright TEXT, 
+                            date TEXT,
+                            explanation TEXT,
+                            hdurl TEXT,
+                            media_type TEXT,
+                            service_version TEXT,
+                            title TEXT,
+                            url TEXT
                         )
                         """
             );
