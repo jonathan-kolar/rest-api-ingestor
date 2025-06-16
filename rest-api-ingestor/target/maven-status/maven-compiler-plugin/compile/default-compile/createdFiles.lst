@@ -1,0 +1,5 @@
+com\example\service\IngestionService.class
+com\example\config\AppConfig.class
+com\example\Main.class
+com\example\client\NasaApiClient.class
+com\example\model\NasaImage.class
