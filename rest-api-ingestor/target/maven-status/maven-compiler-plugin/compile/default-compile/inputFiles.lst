@@ -1,5 +1,8 @@
 C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\client\NasaApiClient.java
 C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\config\AppConfig.java
+C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\db\DatabaseManager.java
 C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\Main.java
+C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\model\APODResponse.java
 C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\model\NasaImage.java
+C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\service\APODClient.java
 C:\Users\JonathanKolar\Documents\Java_Projects\rest-api-ingestor\rest-api-ingestor\src\main\java\com\example\service\IngestionService.java
